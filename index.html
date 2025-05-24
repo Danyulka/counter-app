@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Counter App</title>
+</head>
+<body>
+  <!-- Display for the current counter value; JS updates this span -->
+  <h1>Count: <span id="count">–</span></h1>
+
+  <!-- Button to increment the counter by 1 -->
+  <button id="inc">+1</button>
+  <!-- Button to decrement the counter by 1 -->
+  <button id="dec">−1</button>
+  <!-- Button to delete/reset the counter document in Firestore -->
+  <button id="reset">Reset</button>
+
+  <!-- Load the JavaScript module that handles Firebase setup and CRUD logic -->
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
